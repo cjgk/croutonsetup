@@ -18,3 +18,5 @@ service apache2 start
 
 exit 0" > /etc/rc.local
 
+chmod +x /etc/rc.local
+
