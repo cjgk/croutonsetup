@@ -17,7 +17,6 @@ To run individual parts:
 * mysql-server
 * mysql-client
 * dnsmasq
-* vim
 
 ### Apache
 * Enable mod_vhost_alias
