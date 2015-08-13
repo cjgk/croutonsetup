@@ -1,1 +1,1 @@
-apt-get install git apache2 php5 mysql-server mysql-client dnsmasq vim
+apt-get install apache2 php5 mysql-server mysql-client dnsmasq
