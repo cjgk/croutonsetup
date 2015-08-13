@@ -1,6 +1,7 @@
 # Crouton AMP development environment
 
 A set of very simple scripts to set up a basic Apache, MySQL and PHP environment.
+Guess this should be converted to some fancy kind of provisioning system.
 
 To run full setup:
 `sudo bash setup.sh`
@@ -16,7 +17,6 @@ To run individual parts:
 * mysql-server
 * mysql-client
 * dnsmasq
-* vim
 
 ### Apache
 * Enable mod_vhost_alias
@@ -36,3 +36,10 @@ To run individual parts:
 
 ### DNSMasq
 * Send all requests ending in .dev to 127.0.0.1
+
+### Umask
+* Global Umask is set to 0002 to respect SGID
+
+### User group
+* The first system user (1000) is added to group www-data 
+
