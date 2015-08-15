@@ -5,3 +5,4 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 echo "umask 0002" > /etc/profile.d/umask.sh
+chmod +x /etc/profile.d/umask.sh
